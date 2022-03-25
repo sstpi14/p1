@@ -1,0 +1,43 @@
+----INPUTS FOR POST REQUESTS----
+
+--User Controller--
+- Create User (/newuser):
+    {
+        "username":"?"
+        "password":"?"
+        "firstname":"?"
+        "lastname":"?"
+        "email":"?"
+        "roleId":
+    }
+- Login Employee User (/login1):
+    {
+        "username":"kev123"
+        "password":"pass123"
+        "approved":"true"
+    }
+- Login Financial Manager User (/login2):
+    {
+        "username":"kev123"
+        "password":"pass123"
+        "approved":"true"
+    }
+- Login Admin User (/login3):
+    {
+        "username":"kev123"
+        "password":"pass123"
+        "approved":"true"
+    }
+--Reimbursement Controller--
+- Create Reimbursement [for Employees] (/1/new-reimbursement):
+    {
+        "amount":"xx.xx",
+        "description":"abc...",
+        "typeId":"x"
+    }
+- Update Reimbursement [for Financial Managers] (/2/update-reimbursement):
+    {
+        "statusId":"x"
+        "resolverId":"x"
+        "reimbId":"x"
+    }

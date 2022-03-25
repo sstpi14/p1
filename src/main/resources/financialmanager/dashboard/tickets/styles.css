@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+.showbuttons {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+#ticket-table1a{
+    background-color: lightgray;
+    border: 2px solid black;
+}
+#ticket-table1b{
+    background-color: lightgray;
+    border: 2px solid black;
+}
+#ticket-table1c{
+    background-color: lightgray;
+    border: 2px solid black;
+}#ticket-table1d{
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+#ticket-tablea{
+    background-color: rgb(226, 224, 224);
+    border-radius: 6px;
+    border: 2px solid black;
+    
+}
+.table-sortable th {
+    cursor: pointer;
+}
+  
+.table-sortable .th-sort-asc::after {
+    content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+    content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+    background: rgba(0, 0, 0, 0.1);
+}

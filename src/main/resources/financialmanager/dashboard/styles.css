@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+#path-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 6px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
