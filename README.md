@@ -33,6 +33,17 @@ In this web application, employees and financial managers can log in and create/
 To Do List for Improvement
 * Create an Admin user that would be able to assign new users as financial managers.
 
+## Getting Started
+
+Git Clone Command for cloning the full application:
+* https://github.com/sstpi14/Employee-Remibursment-App
+
+ENVIRONMENT VARIABLES TO SET:
+* "AWS_RDS_ENDPOINT":[endpoint for your AWS RDS PostgreSQL database]
+* "RDS_USERNAME":[username set for your RDS]
+* "RDS_PASSWORD":[password set for your RDS]
+
+
 ## Usage
 
 1. Start the application by running the main driver java file in the src folder.
