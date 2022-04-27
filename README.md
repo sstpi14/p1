@@ -37,4 +37,4 @@ To Do List for Improvement
 
 1. Start the application by running the main driver java file in the src folder.
 2. Set Environment Variables for your personal PostgreSQL database. The environment variables are listed in the repos folder for you to create.
-3. 
+3. Open your computer browser to localhost:9000/ to be able to view the webpage and start exploring your company's employee reimbursement system!
