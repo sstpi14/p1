@@ -20,12 +20,13 @@ In this web application, employees and financial managers can log in and create/
 
 ## Features
 
-* Employees can:
+Employees can:
 *   Login
 *   Register
 *   Create Reimbursements
 *   View All Personal Reimbursements
-* Financial Managers can:
+
+Financial Managers can:
 *   Login
 *   View All Reimbursements from All Employees
 *   Approve or Deny Reimbursements
