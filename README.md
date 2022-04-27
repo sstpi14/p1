@@ -39,9 +39,9 @@ Git Clone Command for cloning the full application:
 * https://github.com/sstpi14/Employee-Remibursment-App
 
 ENVIRONMENT VARIABLES TO SET:
-* "AWS_RDS_ENDPOINT":[endpoint for your AWS RDS PostgreSQL database]
-* "RDS_USERNAME":[username set for your RDS]
-* "RDS_PASSWORD":[password set for your RDS]
+* "AWS_RDS_ENDPOINT" : [endpoint for your AWS RDS PostgreSQL database]
+* "RDS_USERNAME" : [username set for your RDS]
+* "RDS_PASSWORD" : [password set for your RDS]
 
 
 ## Usage
